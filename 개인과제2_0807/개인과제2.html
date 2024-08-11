@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏅2024 파리 올림픽🏅</title>
+
+    <script type="module" src="과제.js"></script>
+    <link rel="stylesheet" href="과제.css" />
+</head>
+
+<body>
+    <div id="root">
+        <!-- "root" DOM 노드
+         React DOM에 의해
+         관리될 예정 -->
+        <div class="container">
+            <h1>🏅2024 파리 올림픽🏅</h1>
+            <form class="input-group">
+                <div class="input-field">
+                    <!-- label, input을 
+                 같이 연결 사용 -->
+                    <label>🌎국가명</label>
+                    <input type="text" placeholder="국가 입력" value>
+                </div>
+                <div class="input-field">
+                    <label>🥇금메달</label>
+                    <input type="number" placeholder="0" value="0">
+                </div>
+                <div class="input-field">
+                    <label>🥈은메달</label>
+                    <input type="number" placeholder="0" value="0">
+                </div>
+                <div class="input-field">
+                    <label>🥉동메달</label>
+                    <input type="number" placeholder="0" value="0">
+                </div>
+                <div class="button-group">
+                    <button type="submit">국가추가</button>
+                    <!-- 폼데이터를 제출하는 제출버튼 -->
+                    <button type="button">업데이트</button>
+                    <!-- 클릭할 수 있는 버튼임을 명시 -->
+                </div>
+            </form>
+            <div>
+                <p>✨아직 추가된 국가가 없습니다. 메달을 추적하세요!</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
